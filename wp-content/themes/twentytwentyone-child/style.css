@@ -8,6 +8,57 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
-body{
-    background-color: aqua;
+.homepage-banner {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: none;
+    padding: 0 10vw;
+
+    
 }
+img {
+    width: 100%;
+}
+.infos {
+    background-color: #F5F5F5;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 50px;
+}
+.grille {
+    display: grid;
+    padding: 0 8vw;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+  
+.grille--2 {
+    gap: 2.5vw;
+    grid-template-columns: repeat(2, 1fr);
+}
+  
+  .grille--3 {
+      gap: 2.5vw;
+      grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .grille--4 {
+      gap: 1.75vw;
+      grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .grille--6 {
+      gap: 1.25vw;
+      grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .grille__item {
+    width: 100%;
+  }
