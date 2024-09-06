@@ -8,7 +8,13 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
-.homepage-banner {
+
+
+img {
+    width: 100%;
+}
+
+.accueil-header {
     height: 60vh;
     display: flex;
     align-items: center;
@@ -23,10 +29,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
     
 }
-img {
-    width: 100%;
-}
-
 
 .infos {
     background-color: rgb(245, 224, 218);
@@ -35,18 +37,22 @@ img {
     padding: 50px;
     
 }
+
 .accueil-introduction{
     text-align: left;
     padding: 20px;
     max-width: 80ch;
     margin: auto;
 }
+
 .infos>h3{
     padding: 15px 5vw;
 }
+
 .infos>p{
     padding-bottom: 15px;
 }
+
 .grille {
     display: grid;
     padding: 0 5vw;
@@ -55,15 +61,22 @@ img {
 .grille>a{
 text-decoration: none;
 }
+
 .grille--4 {
     gap: 1.75vw;
     grid-template-columns: repeat(4, 1fr);
 }
   
- 
 .grille__item {
     width: 100%;
     background-color: white;
     text-align: center;
     padding: 20px;
+}
+
+.article-contenu{
+    text-align: left;
+    padding: 20px;
+    max-width: 80ch;
+    margin: auto;
 }

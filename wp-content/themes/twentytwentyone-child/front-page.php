@@ -11,7 +11,7 @@ if ($bg_image && !empty($bg_image['url'])) {
 }
 ?>
 
-<div class="homepage-banner" style="background-image: url(<?php echo $bg_image; ?>)">
+<div class="accueil-header" style="background-image: url(<?php echo $bg_image; ?>)">
 <h1><?php echo get_field('accueil_slogan'); ?></h1>
 </div>
 
