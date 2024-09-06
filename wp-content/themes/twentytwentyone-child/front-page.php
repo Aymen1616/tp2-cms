@@ -15,65 +15,96 @@ if ($bg_image && !empty($bg_image['url'])) {
 <h1><?php echo get_field('accueil_slogan'); ?></h1>
 </div>
 
-
-<div class="homepage-introduction">
+<div class="accueil-introduction">
     <p><?php echo get_field('accueil_introduction'); ?></p>
 </div>
 
-<div class="homepage-articles">
+<div class="acceuil-article">
     <?php
-    $args = array(
+    // Query for Vaiselle articles
+    $args_vaiselle = array(
         'post_type' => 'article',
         'meta_query' => array(
             array(
                 'key' => 'article_actif',
                 'value' => '1',
                 'compare' => '=='
+            ),
+            array(
+                'key' => 'article_categorie',
+                'value' => 'Vaisselle',
+                'compare' => '=='
             )
         ),
-        'posts_per_page' => 8,
-    );
-    
-    
-    //querry
-    $the_query = new WP_Query($args);
-    
-        if( $the_query->have_posts() ): ?>
+        'posts_per_page' => 4,
+    );   
+    $vaiselle_query = new WP_Query($args_vaiselle);   
+    if( $vaiselle_query->have_posts() ): ?>       
+        <section class="infos">
+        <h3><?php echo "Vaiselle"; ?></h3>
+        <div class="grille grille--4">
+        <?php while( $vaiselle_query->have_posts() ) : $vaiselle_query->the_post(); 
+        $champs = get_fields();
+        $article_image = $champs['article_image']['url'];           
+        ?>
         
-            <section class = "infos">
-            <div class="grille grille--3">
-            <?php while( $the_query->have_posts() ) : $the_query->the_post(); 
-            $champs = get_fields();
-    
-            // $chaise_titre= $champs['chaise_titre'];
-            // $chaise_designer=$champs['chaise_designer'];
-            // $chaise_annee=$champs['chaise_annee'];
-             $article_categorie = $champs['article_categorie'];
-            $article_image = $champs['article_image']['url'];
-            ?>
-                 
-            
-                <a href="<?php the_permalink(); ?>"> 
-                <?php if ($article_image):?>  
-                <div class="grille__item">
-                <h3><?php the_title(); ?></h3>
-                <h2><?php echo $article_categorie; ?></h2>
-                    <img src="<?php echo $article_image; ?>" />
-                <?php endif;?>
-                
-                    <!-- <h3 class = 'description'><?php echo $chaise_titre; ?></h3>
-                    <h3 class = 'designer'><?php echo $chaise_designer; ?></h3> -->
-                </div> 
-                </a>
-                   
-       
-            <?php endwhile; ?>
-            </section>
-            </div>
-        <?php endif; ?>
-    
-    <?php wp_reset_query();
+            <a href="<?php the_permalink(); ?>"> 
+            <?php if ($article_image):?>  
+            <div class="grille__item">           
+            <img src="<?php echo $article_image; ?>" />
+            <p><?php the_title(); ?></p>
+            </div> 
+            <?php endif;?>
+            </a>
+        <?php endwhile; ?>
+        </div>
+        </section>
+    <?php endif; ?>
+    <?php wp_reset_query(); ?>
+
+    <?php
+    // Query for Service articles
+    $args_service = array(
+        'post_type' => 'article',
+        'meta_query' => array(
+            array(
+                'key' => 'article_actif',
+                'value' => '1',
+                'compare' => '=='
+            ),
+            array(
+                'key' => 'article_categorie',
+                'value' => 'Service',
+                'compare' => '=='
+            )
+        ),
+        'posts_per_page' => 4,
+    );   
+    $service_query = new WP_Query($args_service);   
+    if( $service_query->have_posts() ): ?>       
+        <section class="infos">
+        <h3><?php echo "Service"; ?></h3>
+        <div class="grille grille--4">
+        <?php while( $service_query->have_posts() ) : $service_query->the_post(); 
+        $champs = get_fields();
+        $article_image = $champs['article_image']['url'];           
+        ?>
+            <a href="<?php the_permalink(); ?>"> 
+            <?php if ($article_image):?>  
+            <div class="grille__item">
+            <img src="<?php echo $article_image; ?>" />
+            <p><?php the_title(); ?></p>
+            </div> 
+            <?php endif;?>
+            </a>
+        <?php endwhile; ?>
+        </div>
+        </section>
+    <?php endif; ?>
+    <?php wp_reset_query(); ?>
+</div>
 
 
+<?php
 get_footer();
 ?>
