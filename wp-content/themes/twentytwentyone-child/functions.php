@@ -7,6 +7,7 @@ function ttoc_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'ttoc_styles' );
 
+
 /**
  * supprime l editeur par defaut
  */
