@@ -60,19 +60,8 @@ if ($page_title == 'Vaisselle' || $page_title == 'Service') {
         ?>
     </div>
     <?php
-} else {
-    // Code pour les autres pages
-    ?>
-    <div class="page-content">
-        <?php
-        if (have_posts()) :
-            while (have_posts()) : the_post();
-                the_content();
-            endwhile;
-        endif;
-        ?>
-    </div>
-    <?php
-}
+}?>
+  
+<?php
 get_footer();
 ?>

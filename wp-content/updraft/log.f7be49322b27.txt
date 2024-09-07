@@ -1,0 +1,209 @@
+0000.001 (0) Opened log file at time: Sat, 07 Sep 2024 04:24:18 +0000 on http://localhost/creuset
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.5.4 PHP: 8.2.18 (apache2handler, Windows NT LAPTOP-4BP560ON 10.0 build 22631 (Windows 11) AMD64) MySQL: 8.3.0 (max packet size=67108864) WPLANG: fr_FR Server: Apache/2.4.59 (Win64) PHP/8.2.18 mod_fcgid/2.3.10-dev safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.2M | 6M) multisite: N openssl: OpenSSL 3.0.13 30 Jan 2024 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 191099.5 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.013 (0) Semaphore (fd, wp_options) being initialised
+0000.015 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.016 (0) Set semaphore last lock (fd) time to 2024-09-07 04:24:18
+0000.017 (0) Semaphore lock (fd) complete
+0000.020 (0) Backup run: resumption=0, nonce=f7be49322b27, file_nonce=f7be49322b27 begun at=1725683058 (0s ago), job type=backup
+0000.021 (0) Scheduling a resumption (1) after 300 seconds (1725683358) in case this run gets aborted
+0000.033 (0) Checking if we have a zip executable available
+0000.035 (0) Creation of backups of directories: beginning
+0000.051 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.149 (0) Total entities for the zip file: 266 directories, 1860 files (0 skipped as non-modified), 49.4 MB
+0001.221 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.285 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.352 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.419 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.481 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.548 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.578 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 1860 files batched, 643 (643) added so far); re-opening (prior size: 0 KB)
+0003.738 (0) A useful amount of data was added after this amount of zip processing: 4.4 s (normalised: 4.4 s, rate: 5866.6 KB/s)
+0003.739 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.4010429382324, normalised_time=4.3636840208133, max_time=3.7383370399475, data points known=1, old_max_bytes=26214400, new_max_bytes=36044406)
+0003.787 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 700 files added (on-disk size: 8127.5 KB)
+0003.850 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 800 files added (on-disk size: 8127.5 KB)
+0003.920 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 900 files added (on-disk size: 8127.5 KB)
+0003.990 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 1000 files added (on-disk size: 8127.5 KB)
+0004.057 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 1100 files added (on-disk size: 8127.5 KB)
+0004.128 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 1200 files added (on-disk size: 8127.5 KB)
+0004.197 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 1300 files added (on-disk size: 8127.5 KB)
+0004.268 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 1400 files added (on-disk size: 8127.5 KB)
+0004.338 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 1500 files added (on-disk size: 8127.5 KB)
+0004.408 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 1600 files added (on-disk size: 8127.5 KB)
+0004.435 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.2 MB, 1860 files batched, 1001 (1644) added so far); re-opening (prior size: 8127.5 KB)
+0007.679 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 1700 files added (on-disk size: 15099.1 KB)
+0007.742 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.tmp: 1800 files added (on-disk size: 15099.1 KB)
+0008.568 (0) Creating zip file manifest (backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.list-temp.tmp)
+0008.607 (0) Successfully created zip file manifest (size: 156679)
+0008.747 (0) Created plugins zip (0) - 15438.9 KB in 8.7 s (1776.5 KB/s) (sha1: 3355a52195e7519406e2fd7a2825281c11fa6641, sha256: 93797d4dfe15ad2ef7a917bd6dfd9268a2cebf39b6714dc7561d0656c8b5eb28)
+0008.752 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0008.753 (0) No remote despatch: user chose no remote backup service
+0008.754 (0) Recording as successfully uploaded: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip
+0008.755 (0) Deleting zip manifest (backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip.list.tmp)
+0008.757 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0008.758 (0) Number of backup sets in history: 0; groups (db): 1
+0008.758 (0) Number of backup sets in history: 0; groups (files): 1
+0008.759 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0008.764 (0) Beginning creation of dump of themes (split every: 400 MB)
+0009.098 (0) Total entities for the zip file: 92 directories, 489 files (0 skipped as non-modified), 16.3 MB
+0009.165 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.229 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.296 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0009.364 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0010.593 (0) Creating zip file manifest (backup_2024-09-07-0624_Le_Creuset_f7be49322b27-themes.zip.list-temp.tmp)
+0010.608 (0) Successfully created zip file manifest (size: 34753)
+0010.709 (0) Created themes zip (0) - 14179.5 KB in 1.9 s (7302.9 KB/s) (sha1: c2c799c857876daf21c2ce16335633e30e4eb368, sha256: 26b19c530987e72be455cd2bd0e12eeb527f4558a79bfa1931b65d1e491467d5)
+0010.713 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0010.713 (0) No remote despatch: user chose no remote backup service
+0010.714 (0) Recording as successfully uploaded: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-themes.zip
+0010.715 (0) Deleting zip manifest (backup_2024-09-07-0624_Le_Creuset_f7be49322b27-themes.zip.list.tmp)
+0010.716 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0010.717 (0) Number of backup sets in history: 0; groups (db): 1
+0010.718 (0) Number of backup sets in history: 0; groups (files): 1
+0010.718 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0010.723 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0010.723 (0) Looking for candidates to backup in: C:\wamp64\www\creuset/wp-content/uploads
+0010.724 (0) finding files: 2024: adding to list (1)
+0010.724 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0010.801 (0) Total entities for the zip file: 2 directories, 119 files (0 skipped as non-modified), 3.2 MB
+0010.869 (0) Zip: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.982 (0) Creating zip file manifest (backup_2024-09-07-0624_Le_Creuset_f7be49322b27-uploads.zip.list-temp.tmp)
+0010.988 (0) Successfully created zip file manifest (size: 7231)
+0011.027 (0) Created uploads zip (0) - 3304.5 KB in 0.3 s (11054.1 KB/s) (sha1: a4f9fdaccdfd02e906303e6438213ccc85f2d870, sha256: 972fbd7545e60679716fd5a0d540a63c98089462159a0056e3e8e29b3161aff3)
+0011.030 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.031 (0) No remote despatch: user chose no remote backup service
+0011.032 (0) Recording as successfully uploaded: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-uploads.zip
+0011.033 (0) Deleting zip manifest (backup_2024-09-07-0624_Le_Creuset_f7be49322b27-uploads.zip.list.tmp)
+0011.034 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.035 (0) Number of backup sets in history: 0; groups (db): 1
+0011.035 (0) Number of backup sets in history: 0; groups (files): 1
+0011.036 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0011.040 (0) No backup of mu-plugins: excluded by user's options
+0011.041 (0) Beginning backup of other directories found in the content directory (index: 0)
+0011.042 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0011.042 (0) Looking for candidates to backup in: C:\wamp64\www\creuset/wp-content
+0011.043 (0) finding files: index.php: adding to list (1)
+0011.044 (0) finding files: languages: adding to list (2)
+0011.044 (0) finding files: plugins: skipping: this is the plugins directory
+0011.044 (0) finding files: themes: skipping: this is the themes directory
+0011.045 (0) finding files: updraft: skipping: this is the updraft directory
+0011.045 (0) finding files: upgrade: skipping: excluded by options
+0011.046 (0) finding files: uploads: skipping: this is the uploads directory
+0011.077 (0) Total entities for the zip file: 1 directories, 73 files (0 skipped as non-modified), 3.9 MB
+0011.441 (0) Creating zip file manifest (backup_2024-09-07-0624_Le_Creuset_f7be49322b27-others.zip.list-temp.tmp)
+0011.446 (0) Successfully created zip file manifest (size: 4357)
+0011.459 (0) Created others zip (0) - 1099.2 KB in 0.4 s (2682.6 KB/s) (sha1: b0baddee65a899cda8d67394a7bfb6a1b050c4b6, sha256: 190f159cfe8c3ae3c6721bc11abacab9b4b33719559062164d6c0f4dc460c5c6)
+0011.462 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.463 (0) No remote despatch: user chose no remote backup service
+0011.463 (0) Recording as successfully uploaded: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-others.zip
+0011.464 (0) Deleting zip manifest (backup_2024-09-07-0624_Le_Creuset_f7be49322b27-others.zip.list.tmp)
+0011.466 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.467 (0) Number of backup sets in history: 0; groups (db): 1
+0011.467 (0) Number of backup sets in history: 0; groups (files): 1
+0011.467 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0011.473 (0) Saving backup status to database (elements: 8)
+0011.474 (0) Beginning creation of database dump (WordPress DB)
+0011.475 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0011.479 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe
+0012.547 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1539 bytes total)
+0012.548 (0) Working binary mysqldump found: "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe"
+0012.568 (0) Table wp_options: Total expected rows (via COUNT): 179
+0012.568 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.575 (0) Table wp_options: Rows added in this batch (next record: 270): 175 (uncompressed bytes in this segment=55987) in 0.01 seconds
+0012.587 (0) Table wp_options: finishing file(s) (2, 11.5 KB)
+0012.594 (0) Table wp_users: Total expected rows (via COUNT): 1
+0012.595 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.597 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1381) in 0.01 seconds
+0012.606 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0012.616 (0) Table wp_usermeta: Total expected rows (via COUNT): 25
+0012.616 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.619 (0) Table wp_usermeta: Rows added in this batch (next record: 25): 25 (uncompressed bytes in this segment=2469) in 0.01 seconds
+0012.630 (0) Table wp_usermeta: finishing file(s) (2, 1.3 KB)
+0012.637 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0012.639 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.00 seconds
+0012.652 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0012.657 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0012.658 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.660 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2226) in 0.01 seconds
+0012.670 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0012.689 (0) Table wp_links: Total expected rows (via COUNT): 0
+0012.690 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.00 seconds
+0012.701 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0012.710 (0) Table wp_postmeta: Total expected rows (via COUNT): 415
+0012.711 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.723 (0) Table wp_postmeta: Rows added in this batch (next record: 420): 415 (uncompressed bytes in this segment=68094) in 0.02 seconds
+0012.737 (0) Table wp_postmeta: finishing file(s) (2, 10.2 KB)
+0012.744 (0) Table wp_posts: Total expected rows (via COUNT): 97
+0012.744 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.754 (0) Table wp_posts: Rows added in this batch (next record: 98): 97 (uncompressed bytes in this segment=46512) in 0.01 seconds
+0012.767 (0) Table wp_posts: finishing file(s) (2, 7.7 KB)
+0012.772 (0) Table wp_term_relationships: Total expected rows (approximate): 4
+0012.774 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 4 (uncompressed bytes in this segment=729) in 0.00 seconds
+0012.784 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0012.791 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 2
+0012.791 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.793 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=941) in 0.00 seconds
+0012.803 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0012.814 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0012.815 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.00 seconds
+0012.826 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0012.831 (0) Table wp_terms: Total expected rows (via COUNT): 2
+0012.831 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.833 (0) Table wp_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=796) in 0.00 seconds
+0012.842 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0012.844 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\wamp64\www\creuset/wp-content/updraft/backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db.gz (line 1925, C:\wamp64\www\creuset\wp-content\plugins\updraftplus\backup.php)
+0012.848 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_options.table.tmpr271.gz (1/12/fopen): adding to final database dump
+0012.850 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0012.851 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0012.852 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0012.853 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_usermeta.table.tmpr26.gz (5/12/fopen): adding to final database dump
+0012.854 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0012.854 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0012.855 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0012.856 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0012.857 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0012.857 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0012.858 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0012.859 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_postmeta.table.tmpr421.gz (13/12/fopen): adding to final database dump
+0012.861 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0012.862 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_posts.table.tmpr99.gz (15/12/fopen): adding to final database dump
+0012.864 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0012.864 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0012.865 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0012.866 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_term_taxonomy.table.tmpr3.gz (19/12/fopen): adding to final database dump
+0012.867 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0012.868 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0012.868 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0012.869 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_terms.table.tmpr3.gz (23/12/fopen): adding to final database dump
+0012.870 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0012.886 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db.gz: finished writing out complete database file (34.9 KB)
+0012.902 (0) Total database tables backed up: 12 (backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db.gz, size: 35824, sha1: 107f81f7e47bcfa1e69c9dffd1324b2cd28ff604, sha256: 690a0fb94b1cb1eebdb1d496bdcd52a81a7e5b5b1d29b7d2777f4d0b7ed449c2)
+0012.907 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-plugins.zip: plugins: This file has already been successfully uploaded
+0012.907 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-themes.zip: themes: This file has already been successfully uploaded
+0012.908 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-uploads.zip: uploads: This file has already been successfully uploaded
+0012.908 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-others.zip: others: This file has already been successfully uploaded
+0012.909 (0) backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db.gz: db: This file has not yet been successfully uploaded: will queue
+0012.909 (0) Saving backup history. Total backup size: 33.3 MB
+0012.911 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0012.913 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0012.914 (0) No remote despatch: user chose no remote backup service
+0012.914 (0) Recording as successfully uploaded: backup_2024-09-07-0624_Le_Creuset_f7be49322b27-db.gz
+0012.916 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0012.917 (0) Number of backup sets in history: 1; groups (db): 1
+0012.917 (0) Examining (for databases) backup set with group_id=0, nonce=f7be49322b27, datestamp=1725683058 (Sep 07 2024 04:24:18)
+0012.918 (0) This backup set is the backup set just made, so will not be deleted.
+0012.918 (0) Number of backup sets in history: 1; groups (files): 1
+0012.918 (0) Examining (for files) backup set with nonce=f7be49322b27, datestamp=1725683058 (Sep 07 2024 04:24:18)
+0012.918 (0) This backup set is the backup set just made, so will not be deleted.
+0012.919 (0) This backup set is the backup set just made, so will not be deleted.
+0012.919 (0) This backup set is the backup set just made, so will not be deleted.
+0012.919 (0) This backup set is the backup set just made, so will not be deleted.
+0012.919 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.919 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0012.921 (0) Resume backup (f7be49322b27, 0): finish run
+0012.923 (0) Decremented the semaphore (fd) by 1
+0012.923 (0) Semaphore (fd) unlocked
+0012.924 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0012.926 (0) No email will/can be sent - the user has not configured an email address.
+0012.927 (0) The backup succeeded and is now complete
